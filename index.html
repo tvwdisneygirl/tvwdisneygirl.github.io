@@ -12,6 +12,7 @@
             }
 
             #backgroundImage {
+                visibility: visible;
                 z-index: -1000;
                 overflow: hidden;
                 border: none;
@@ -48,6 +49,10 @@
             @media screen and (max-width: 700px) {
                 .links-list {
                     display: block;
+                }
+                
+                #backgroundImage {
+                    visibility: hidden;
                 }
             }
         </style>
